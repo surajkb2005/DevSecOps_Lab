@@ -1,5 +1,8 @@
 name: Greeting Workflow
-on: [push]
+on:
+  push:
+    paths:
+      - 'week1/**'
 
 jobs:
   say-hello:
